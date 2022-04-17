@@ -8,6 +8,6 @@ import com.example.demo.entity.User;
 public interface UserRepository  extends JpaRepository<User, Long> {
 	public User findBylastname(String lastname);
 	
-	public User findByRolename(String rolename);
+//	public User findByRolename(String rolename);
 
 }

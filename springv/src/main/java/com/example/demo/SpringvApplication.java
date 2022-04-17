@@ -9,6 +9,5 @@ public class SpringvApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringvApplication.class, args);
 	}
-String s="ssjs";
-String d="dddd";
+
 }
