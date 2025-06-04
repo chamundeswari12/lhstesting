@@ -68,7 +68,7 @@ public class SMSController {
     	{
     		return new ResponseEntity<String>("valid",HttpStatus.OK);
     	}
- 
+ system.out.println("i am using chatgpt");
     	return new ResponseEntity<String>("invalid",HttpStatus.BAD_REQUEST);
     }
     
